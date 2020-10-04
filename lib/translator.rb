@@ -5,7 +5,7 @@ def load_library (emotes)
   final = {}
   YAML.load_file(emotes).each do |key, value|
     final[key] = {}
-    binding.pry
+    #binding.pry
   end
   final
 end
