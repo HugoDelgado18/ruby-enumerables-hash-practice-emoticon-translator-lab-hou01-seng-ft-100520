@@ -4,7 +4,13 @@ require 'pry'
 def load_library (emotes)
   final = {}
   YAML.load_file(emotes).each do |key, value|
-    final[key] = {}
+    final[key] = {
+      {
+    english:
+  },
+  {japanese:
+  }
+  }
     #binding.pry
   end
   final
