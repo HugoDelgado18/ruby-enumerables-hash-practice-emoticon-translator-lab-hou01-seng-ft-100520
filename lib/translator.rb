@@ -21,6 +21,7 @@ end
 def get_english_meaning(emotes, emoticon)
   load_library(emotes).each do |key, value|
     binding.pry
+  end
 #  if emoticon ==
   # code goes here
 end
