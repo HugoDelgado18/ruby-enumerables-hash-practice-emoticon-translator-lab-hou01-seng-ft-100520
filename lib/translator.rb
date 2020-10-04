@@ -25,7 +25,7 @@ end
 
 
   # code goes here
-end
+
 
 def get_english_meaning(emotes, emoticon)
   load_library(emotes).each do |key, value|
