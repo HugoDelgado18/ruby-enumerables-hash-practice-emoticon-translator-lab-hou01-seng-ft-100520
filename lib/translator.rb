@@ -15,7 +15,7 @@ end
 def get_japanese_emoticon (emotes, emoticon)
   load_library(emotes).each do |key, value|
     if value[:english] = emoticon
-      return value
+      return value[japanese]
       return "Sorry, that emoticon was not found"
     #  binding.pry
     end
