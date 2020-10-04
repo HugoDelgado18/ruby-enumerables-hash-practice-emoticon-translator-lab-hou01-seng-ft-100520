@@ -20,7 +20,7 @@ end
 
 def get_english_meaning(emotes, emoticon)
   load_library(emotes).each do |key, value|
-    if value[:japanese] != emoticon
+    if value[:japanese] == emoticon
       return key
     #  binding.pry
     end
