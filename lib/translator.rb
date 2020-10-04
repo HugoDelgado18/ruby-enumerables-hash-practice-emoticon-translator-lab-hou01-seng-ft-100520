@@ -3,7 +3,7 @@ require 'pry'
 
 def load_library (emotes)
   final = {}
-  YAML.load_file(emotes).each |key, value|
+  YAML.load_file(emotes).each do |key, value|
 binding.pry
   final
 end
